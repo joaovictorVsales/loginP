@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Produtos</title>
+</head>
+<body>
+    <h1>Bem-vindo, {{ username }}!</h1>
+
+    <h2>Lista de produtos:</h2>
+    <ul>
+        {% for item in produtos %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="/logout">Sair</a>
+</body>
+</html>

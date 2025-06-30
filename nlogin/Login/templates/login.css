@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#header{
+    background-image: linear-gradient(90deg, white, darkgrey);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 150px;
+    font-size: 40px;
+}
+
+h1{
+    transform:translate(45%,30px); 
+    color: black;
+}
+
+#bot{
+    background-color: rgb(129, 255, 255);
+    color:black;
+    border:none;
+}
+
+#bot:hover{
+    background-color: rgb(72, 149, 149);
+    color: aliceblue;
+    cursor:pointer;
+}
+
+#form{
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.428);
+    height: 250px;
+    width: 250px;
+    transform:translate(7%, 90%);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#username{
+    font-size: 20px;
+}
+
+#password{
+    font-size: 20px;
+}
+
+body{
+    background-image: linear-gradient(45deg, black, darkgrey); 
+    height: 100vh;   
+}
